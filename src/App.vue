@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1 class="text-danger">Scritta rossa</h1>
   </div>
 </template>
 
@@ -17,6 +18,8 @@ export default {
 </script>
 
 <style lang="scss">
+77@import 'style/general.scss';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
